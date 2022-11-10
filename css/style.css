@@ -1,0 +1,16 @@
+header {
+  background-color: rgba(197, 197, 197, 0.541);
+}
+header img {
+  width: 3%;
+}
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/380883.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
