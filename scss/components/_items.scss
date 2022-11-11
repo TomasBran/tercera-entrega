@@ -5,4 +5,8 @@
     gap:10px;
     padding-left: 20px;
     margin: 20px 0px;
+
+    img:hover{
+        @extend %animation;
+    }
 }
