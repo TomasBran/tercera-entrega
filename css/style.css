@@ -16,7 +16,7 @@ body {
   background-size: cover;
 }
 
-.container-carousel-general, .container-carousel {
+.h2-container, .container-carousel-general, .container-carousel {
   display: flex;
   justify-content: center;
 }
@@ -30,11 +30,11 @@ body {
   background-color: rgba(0, 0, 0, 0.26);
 }
 
-.h2-container {
+.h2-container, .container-carousel, .container-carousel-general {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
+
 .h2-container .top-h2 {
   padding-top: 70px;
 }
@@ -45,7 +45,16 @@ body {
   -webkit-text-stroke: 1.3px black;
 }
 
-.container-carousel, .container-carousel-general {
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  padding-left: 20px;
+  margin: 20px 0px;
+}
+
+.container-carousel, .container-carousel-general, .h2-container {
   display: flex;
   justify-content: center;
 }

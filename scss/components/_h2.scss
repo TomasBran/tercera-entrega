@@ -1,7 +1,7 @@
+@import '../base/extends';
+
 .h2-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flexbox;
 
     .top-h2{
         padding-top: 70px;
