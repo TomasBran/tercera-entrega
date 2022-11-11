@@ -1,0 +1,13 @@
+@import '../base/extends';
+
+.container-carousel{
+    width: 800px;
+    height: 800px;
+    @extend %flexbox;
+}
+
+.container-carousel-general{
+    background-color: rgba(0, 0, 0, 0.26);
+    @extend %flexbox;
+}
+

@@ -1,5 +1,8 @@
 header {
   background-color: rgba(197, 197, 197, 0.541);
+  display: flex;
+  position: fixed;
+  z-index: 100;
 }
 header img {
   width: 3%;
@@ -11,6 +14,40 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container-carousel-general, .container-carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.container-carousel {
+  width: 800px;
+  height: 800px;
+}
+
+.container-carousel-general {
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+.h2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h2-container .top-h2 {
+  padding-top: 70px;
+}
+.h2-container h2 {
+  color: rgb(214, 214, 214);
+  font-family: "Aclonica";
+  font-size: 35px;
+  -webkit-text-stroke: 1.3px black;
+}
+
+.container-carousel, .container-carousel-general {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

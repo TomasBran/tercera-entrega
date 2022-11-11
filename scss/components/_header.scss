@@ -1,6 +1,9 @@
 header{
     background-color: rgba(197, 197, 197, 0.541);
-    
+    display: flex;
+    position: fixed;
+    z-index: 100;
+
     img{
         width: 3%;
     }
