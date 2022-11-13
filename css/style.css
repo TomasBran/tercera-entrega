@@ -14,6 +14,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 42px;
 }
 
 footer {
@@ -115,6 +116,11 @@ footer .redes {
 .main-page {
   padding-top: 100px;
   padding-bottom: 350px;
+}
+@media (max-width: 991px) {
+  .main-page {
+    padding-top: 340px;
+  }
 }
 .main-page img {
   max-width: 800px;
