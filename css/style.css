@@ -29,7 +29,7 @@ footer .icon img {
 footer .redes {
   font-size: 180%;
 }
-.h2-container, .container-carousel-general, .container-carousel {
+.main-page, .h2-container, .container-carousel-general, .container-carousel {
   display: flex;
   justify-content: center;
 }
@@ -48,7 +48,7 @@ footer .redes {
   background-color: rgba(0, 0, 0, 0.26);
 }
 
-.h2-container, .container-carousel, .container-carousel-general {
+.main-page, .h2-container, .container-carousel, .container-carousel-general {
   display: flex;
   justify-content: center;
 }
@@ -112,7 +112,29 @@ footer .redes {
   grid-area: 3/3/4/4;
 }
 
-.container-carousel, .container-carousel-general, .h2-container {
+.main-page {
+  padding-top: 100px;
+  padding-bottom: 350px;
+}
+.main-page img {
+  max-width: 800px;
+}
+.main-page div {
+  position: absolute;
+  max-width: 700px;
+}
+.main-page .imagen-delante:hover {
+  opacity: 0.3;
+  transition: all 1s ease;
+}
+.main-page .texto-detras {
+  z-index: -1;
+  padding: 10px;
+  color: white;
+  font-size: 39px;
+}
+
+.container-carousel, .container-carousel-general, .h2-container, .main-page {
   display: flex;
   justify-content: center;
 }

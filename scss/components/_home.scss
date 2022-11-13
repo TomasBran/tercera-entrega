@@ -1,0 +1,27 @@
+.main-page{
+    padding-top: 100px;
+    padding-bottom: 350px;
+    @extend %flexbox;
+    img{
+        max-width: 800px;
+        
+    }
+
+    div{
+        position:absolute; 
+        max-width: 700px;
+    }
+
+    .imagen-delante:hover{
+        opacity: 0.3;
+        transition: all 1s ease;
+    }
+    .texto-detras{
+        z-index: -1;
+        padding: 10px;
+        color:white;
+        font-size: 39px;
+        
+    }
+
+}
