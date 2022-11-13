@@ -5,6 +5,10 @@
 
     .top-h2{
         padding-top: 70px;
+
+        @media (max-width: 991px) {
+            padding-top: 310px;
+        }
     }
 
     h2{
@@ -12,8 +16,6 @@
         font-family: 'Aclonica';
         font-size: 35px;
         -webkit-text-stroke: 1.3px black;
-        
-        
     }
 }
 
