@@ -1,0 +1,29 @@
+.lane-container{
+    display: flex;
+    align-items: center;
+
+    @media (max-width:991px){
+        flex-direction: column;
+    }
+
+    .lane-description{
+        width:40%;
+        
+        color: white;
+        font-size: 23px;
+        text-align: center;
+
+        @media (max-width:991px){
+            font-size: 18px;
+        }
+
+        img{
+            width: 5%;
+        }
+    }
+
+    .container-carousel-general{
+        width: 60%;
+        
+    }
+}

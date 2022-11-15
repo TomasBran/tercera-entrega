@@ -145,6 +145,33 @@ footer .redes {
   }
 }
 
+.lane-container {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .lane-container {
+    flex-direction: column;
+  }
+}
+.lane-container .lane-description {
+  width: 40%;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .lane-container .lane-description {
+    font-size: 18px;
+  }
+}
+.lane-container .lane-description img {
+  width: 5%;
+}
+.lane-container .container-carousel-general {
+  width: 60%;
+}
+
 .container-carousel, .container-carousel-general, .h2-container, .main-page {
   display: flex;
   justify-content: center;
