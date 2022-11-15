@@ -170,6 +170,11 @@ footer .redes {
 .lane-container .lane-description img {
   width: 5%;
 }
+@media (max-width: 1200px) {
+  .lane-container .lane-description-support {
+    font-size: 21px;
+  }
+}
 .lane-container .container-carousel-general {
   width: 60%;
 }
