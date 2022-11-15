@@ -40,6 +40,10 @@ footer .redes {
   transition: all 1s;
 }
 
+.carousel-control-next:hover, .carousel-control-prev:hover {
+  background-color: rgba(212, 212, 212, 0.344);
+}
+
 .container-carousel {
   width: 800px;
   height: 800px;
@@ -57,6 +61,10 @@ footer .redes {
 .runes-grid img:hover, .item-grid img:hover, footer .icon img:hover {
   transform: scale(1.2);
   transition: all 1s;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: rgba(212, 212, 212, 0.344);
 }
 
 .h2-container .top-h2 {
@@ -187,6 +195,10 @@ footer .redes {
 footer .icon img:hover, .item-grid img:hover, .runes-grid img:hover {
   transform: scale(1.2);
   transition: all 1s;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: rgba(212, 212, 212, 0.344);
 }
 
 /*# sourceMappingURL=style.css.map */

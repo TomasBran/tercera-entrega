@@ -9,4 +9,13 @@
 .container-carousel-general{
     background-color: rgba(0, 0, 0, 0.26);
     @extend %flexbox;
+    
+}
+
+.carousel-control-prev{
+    @extend %BGC;
+}
+
+.carousel-control-next{
+    @extend %BGC;
 }
