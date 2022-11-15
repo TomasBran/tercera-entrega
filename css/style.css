@@ -129,12 +129,13 @@ footer .redes {
   max-width: 700px;
 }
 .main-page .imagen-delante:hover {
-  opacity: 0.3;
+  opacity: 0.15;
   transition: all 1s ease;
 }
 .main-page .texto-detras {
   z-index: -1;
-  padding: 10px;
+  padding: 0px 10px;
+  text-align: center;
   color: white;
   font-size: 39px;
   -webkit-text-stroke: 1px black;
