@@ -15,6 +15,7 @@
 
         @media (max-width:991px){
             font-size: 18px;
+            width: 100%;
         }
 
         img{
@@ -30,6 +31,10 @@
 
     .container-carousel-general{
         width: 60%;
+        
+        @media (max-width:991px){
+            width: 100%;
+        }
         
     }
 }

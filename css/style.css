@@ -78,9 +78,9 @@ footer .redes {
 .h2-container h2 {
   color: rgb(214, 214, 214);
   font-family: "Aclonica";
-  font-size: 35px;
+  font-size: 50px;
   -webkit-text-stroke: 1.3px black;
-  padding: 75px 0px 35px;
+  padding: 75px 0px;
 }
 
 .item-grid {
@@ -173,6 +173,7 @@ footer .redes {
 @media (max-width: 991px) {
   .lane-container .lane-description {
     font-size: 18px;
+    width: 100%;
   }
 }
 .lane-container .lane-description img {
@@ -185,6 +186,11 @@ footer .redes {
 }
 .lane-container .container-carousel-general {
   width: 60%;
+}
+@media (max-width: 991px) {
+  .lane-container .container-carousel-general {
+    width: 100%;
+  }
 }
 
 .container-carousel, .container-carousel-general, .h2-container, .main-page {
